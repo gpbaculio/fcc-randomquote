@@ -80,7 +80,7 @@ class App extends Component<AppProps, AppState> {
               </React.Fragment>
             )}
             <div className='mt-3 d-flex justify-content-between'>
-              <div className='media-buttons'>
+              <div className='d-flex justify-content-around w-25 media-buttons'>
                 <a
                   id='tweet-quote'
                   target='_blank'
@@ -100,7 +100,7 @@ class App extends Component<AppProps, AppState> {
                     backgroundColor: color,
                     color: '#f5f5f5'
                   }}
-                  className={`ml-2 btn btn-sm ${!!loading && 'disabled'}`}>
+                  className={`btn btn-sm ${!!loading && 'disabled'}`}>
                   <FaTumblr />
                 </a>
               </div>

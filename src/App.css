@@ -26,3 +26,13 @@ html, body {
   pointer-events: none;
   cursor: default;
 }
+@media (max-width: 768px) {
+  .media-buttons {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  #tumblr-quote {
+    margin-top: .5rem;
+  }
+}
